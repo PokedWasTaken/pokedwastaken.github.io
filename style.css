@@ -7,7 +7,7 @@ body {
     background-position-y: center;
     background-position-x: center;
     background-repeat: no-repeat;
-    background-size: 250%;
+    background-size: 100%;
     background-image: url('assets/background.jpg');
     height: 50%;
     padding: 0px;
@@ -22,7 +22,7 @@ body {
         background-position-y: center;
         background-position-x: center;
         background-repeat: no-repeat;
-        background-size: 175%;
+        background-size: 100%;
         background-image: url('assets/background.jpg');
         height: 50%;
         padding: 0px;
@@ -44,7 +44,7 @@ body {
     text-align: center;
     text-decoration: none;
     overflow: hidden;
-    font-size: 40px;
+    font-size: 100px;
     color: var(--maincolor);
     padding-top: 150px;
     text-shadow: 0 0 5px var(--maincolor);

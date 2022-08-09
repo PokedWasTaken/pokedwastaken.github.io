@@ -1,0 +1,192 @@
+@font-face {
+    src: url(assets/fonts/Gorditas-Bold.ttf);
+    font-family: gordita;
+}
+
+@font-face {
+    src: url(assets/fonts/Poppins-Bold.ttf);
+    font-family: popbold;
+}
+
+@font-face {
+    src: url(assets/fonts/HomemadeApple-Regular.ttf);
+    font-family: apple;
+}
+
+body {
+    background-position-y: center;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: 250%;
+    background-image: url('assets/steven-binotto-m2QRI-O-nIw-unsplash.jpg');
+    height: 50%;
+    padding: 0px;
+    margin: 0px;
+    --maincolor: #ff0335;
+    --border: #ff456a;
+    --bordercolor: #ff456a;
+}
+
+@media screen and (min-width: 1280px) {
+    body {
+        background-position-y: center;
+        background-position-x: center;
+        background-repeat: no-repeat;
+        background-size: 175%;
+        background-image: url('assets/steven-binotto-m2QRI-O-nIw-unsplash.jpg');
+        height: 50%;
+        padding: 0px;
+        margin: 0px;
+        --maincolor: #ff0335;
+        --border: #ff456a;
+        --bordercolor: #ff456a;
+    }
+}
+
+.imgresize {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.design p {
+    font-family: popbold;
+    text-align: center;
+    text-decoration: none;
+    overflow: hidden;
+    font-size: 40px;
+    color: var(--maincolor);
+    padding-top: 150px;
+    text-shadow: 0 0 5px var(--maincolor);
+}
+
+@media screen and (min-width: 1280px) {
+    .design p {
+        font-family: popbold;
+        text-align: center;
+        text-decoration: none;
+        overflow: hidden;
+        font-size: 40px;
+        color: var(--maincolor);
+        padding-top: 80px;
+        text-shadow: 0 0 5px var(--maincolor);
+    }
+}
+
+.border {
+    font-family: apple;
+    font-size: 20px;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid var(--bordercolor);
+    background-color: transparent;
+    height: 50px;
+    width: 200px;
+    color: var(--bordercolor);
+}
+
+.design li {
+    list-style-type: "";
+    height: 50%;
+    width: 80%;
+    color: var(--border);
+    font-family: popbold;
+}
+
+.link {
+    text-decoration: none #FFF;
+    font-family: popbold;
+}
+
+.btn {
+    position: inherit;
+    display: inline-flex;
+    height: 80px;
+    width: 200px;
+    border-radius: 5px;
+    margin: 17px 20px;
+    overflow: hidden;
+    transition: all .4s;
+}
+
+@media screen and (min-width: 1280px) {
+    .btn {
+        position: inherit;
+        display: inline-flex;
+        height: 80px;
+        width: 250px;
+        border-radius: 5px;
+        margin: 17px 20px;
+        overflow: hidden;
+        transition: all .4s;
+    }
+}
+
+.btn .inner {
+    position: inherit;
+    width: 275%;
+    height: 75%;
+    left: -100%;
+    z-index: -1;
+    transition: all .4s;
+    text-shadow: 0 0 10px var(--maincolor);
+}
+
+.btn button {
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: none;
+    color: var(--maincolor);
+    font-size: 30px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: 'popbold', sans-serif;
+}
+
+.btn:hover {
+    transform: scale(1.03);
+    text-shadow: 0 0 10px var(--maincolor);
+}
+
+.btn:hover .inner {
+    left: 0;
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    border-radius: 3px;
+    background: #414141;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background: #2e2e2e;
+    border-radius: 2px;
+    transition: 0.3s;
+}
+
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #212121;
+    transition: 0.3s;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Cabin+Condensed");
+.text text {
+    paint-order: stroke;
+    stroke: white;
+    stroke-width: 0.05px;
+    stroke-linecap: butt;
+    stroke-linejoin: miter;
+    font-size: 5px;
+    font-family: "Cabin Condensed", sans-serif;
+}

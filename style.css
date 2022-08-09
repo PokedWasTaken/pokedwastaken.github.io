@@ -12,9 +12,9 @@ body {
     height: 50%;
     padding: 0px;
     margin: 0px;
-    --maincolor: #ff0335;
-    --border: #ff456a;
-    --bordercolor: #ff456a;
+    --maincolor: #ffffff;
+    --border: #ff5100;
+    --bordercolor: #ff5100;
 }
 
 @media screen and (min-width: 1280px) {
@@ -27,9 +27,9 @@ body {
         height: 50%;
         padding: 0px;
         margin: 0px;
-        --maincolor: #ff0335;
-        --border: #ff456a;
-        --bordercolor: #ff456a;
+        --maincolor: #ffffff;
+        --border: #ff5100;
+        --bordercolor: #ff5100;
     }
 }
 
